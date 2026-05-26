@@ -24,5 +24,5 @@
 3. Впишите туда `OPENROUTER_MODEL = openai/gpt-oss-20b:free`, `OPENROUTER_BASE_URL = https://openrouter.ai/api/v1`, `OPENROUTER_API_KEY=`
 4. Зарегестрируйтесь на OpenRouter: https://openrouter.ai
 5. Создайте ключ и вставьте
-6. Установите зависимости: `uv add -r requirements.txt` или `python pip install -r requirements.txt`
+6. Установите зависимости: `uv add -r requirements.txt` или `python -m pip install -r requirements.txt`
 7. Запустите `uv run streamlit run main` или `streamlit run main.py`
