@@ -1,0 +1,52 @@
+.stApp {
+    background: linear-gradient(90deg, #17014b,#0d4f6e,#133a6c);                                          
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.stStatusWidget {
+    background-color: #161b22;
+    border: 1px solid #21262d;
+    border-radius: 8px;
+    background: black;
+}
+
+ul {
+    list-style-type: square;
+    color: #c9d1d9;
+}
+
+.stTextInput input:focus {
+    border-color: #58a6ff;
+    box-shadow: 0 0 0 1px #58a6ff
+}
+
+div.stButton > button {
+    background-color: #00f2fe;
+    color: #0d1117;
+    border: none ;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 242, 254, 0.6), 0 0 20px rgba(0, 242, 254, 0.4);
+    display: block;
+    margin: 30px auto;
+}
+
+div.stButton > button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.6);
+    transform: translateY(-2px);
+}
+
+div.stButton > button:active {
+    transform: translateY(1px); 
+    box-shadow: 0 0 5px rgba(0, 242, 254, 0.6);
+}
